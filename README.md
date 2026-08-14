@@ -36,7 +36,7 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
       <p><strong>Problem</strong><br/>Repeated bookings and outcome dependent fields made operational KPIs disagree.</p>
       <p><strong>What I built</strong><br/>A reproducible Python, SQL and DuckDB pipeline with governed KPI definitions and a six page Power BI implementation package.</p>
       <p><strong>Result</strong><br/>160,609 raw rows became 148,767 unique bookings after 11,842 duplicates were removed. Twelve warehouse checks pass.</p>
-      <p align="center"><a href="https://github.com/divyarachala1812/ridepulse-operations-analytics"><strong>Open case study</strong></a> · <a href="https://github.com/divyarachala1812/ridepulse-operations-analytics/blob/main/reports/RidePulse_Operations_Analytics_Report.pdf">PDF report</a></p>
+      <p align="center"><a href="https://github.com/divyarachala1812/ridepulse-operations-analytics"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/ridepulse-operations-analytics/blob/main/reports/RidePulse_Report.pdf">PDF report</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><img src="assets/air-quality-forecast.png" width="100%" alt="AirWise observed and predicted PM2.5" /></a>
@@ -44,7 +44,7 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
       <p><strong>Problem</strong><br/>Random validation can leak nearby dates and overstate a pollution forecast.</p>
       <p><strong>What I built</strong><br/>A next day PM2.5 model for Delhi, Hyderabad and Mumbai with chronological validation, a persistence baseline and interpretable evaluation.</p>
       <p><strong>Result</strong><br/>The 3,747 row city day panel was split into 2,070 training, 552 validation, and 1,095 unseen test rows. On 2025 data, Ridge achieved 8.50 µg/m³ MAE, 0.851 R² and 0.871 alert recall.</p>
-      <p align="center"><a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><strong>Open case study</strong></a> · <a href="https://github.com/divyarachala1812/airwise-metro-forecasting/blob/main/reports/AirWise_Metro_Forecasting_Report.pdf">PDF report</a></p>
+      <p align="center"><a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/airwise-metro-forecasting/blob/main/reports/AirWise_Report.pdf">PDF report</a></p>
     </td>
   </tr>
   <tr>
@@ -54,15 +54,15 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
       <p><strong>Problem</strong><br/>Useful scheme details are spread across official pages, PDFs, FAQs and circulars.</p>
       <p><strong>What I built</strong><br/>A citation first retrieval workflow over five declared official sources, with Hindi and Hinglish query support and visible evidence.</p>
       <p><strong>Result</strong><br/>The declared 18 question evaluation reached Hit@1 of 1.000, 0.972 term coverage and citations on every answer.</p>
-      <p align="center"><a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant"><strong>Open case study</strong></a> · <a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant/blob/main/reports/KrishiGuide_Scheme_Assistant_Report.pdf">PDF report</a></p>
+      <p align="center"><a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant/blob/main/reports/KrishiGuide_Report.pdf">PDF report</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://sunshine-agentic-retail.vercel.app"><img src="assets/sunshine-storefront-overview.jpg" width="100%" alt="Sunshine Indian retail storefront" /></a>
       <h3 align="center">Sunshine Retail Platform</h3>
       <p><strong>Problem</strong><br/>Small commerce demos often disconnect search, stock, payment, order history and customer support.</p>
-      <p><strong>What I built</strong><br/>An India first shopping journey with a Next.js interface, Spring Boot order service, FastAPI recommendations and conversational support.</p>
-      <p><strong>Result</strong><br/>The live build connects a 50 product catalogue to reservation commit and release, six bounded order agents, eight customer delivery stages, 12 synthetic analytics records, and 23 automated tests across TypeScript, Java, and Python.</p>
-      <p align="center"><a href="https://sunshine-agentic-retail.vercel.app"><strong>Open live project</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform">Source</a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform/blob/main/output/pdf/Sunshine_Retail_Platform_Report.pdf">PDF report</a></p>
+      <p><strong>What I built</strong><br/>An India first shopping journey with a Next.js interface, a Java 17 Spring Boot order API, FastAPI recommendations and conversational support. The backend validates requests, coordinates six bounded components, reserves or releases inventory and returns typed failure evidence with an eight stage delivery timeline.</p>
+      <p><strong>Result</strong><br/>The live build connects a 50 product catalogue to reservation commit, release and rejection, six bounded backend components, eight customer delivery stages, 12 synthetic analytics records, and 23 automated tests across TypeScript, JUnit and pytest.</p>
+      <p align="center"><a href="https://sunshine-agentic-retail.vercel.app"><strong>Open live project</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform">Source</a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform/blob/main/output/pdf/Sunshine_Report.pdf">PDF report</a></p>
     </td>
   </tr>
 </table>
