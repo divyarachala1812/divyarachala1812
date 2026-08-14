@@ -57,7 +57,7 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
       <p align="center"><a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant"><strong>Open case study</strong></a> · <a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant/blob/main/reports/KrishiGuide_Scheme_Assistant_Report.pdf">PDF report</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://sunshine-agentic-retail.vercel.app"><img src="assets/sunshine-checkout.jpg" width="100%" alt="Sunshine retail checkout experience" /></a>
+      <a href="https://sunshine-agentic-retail.vercel.app"><img src="assets/sunshine-storefront-overview.jpg" width="100%" alt="Sunshine Indian retail storefront" /></a>
       <h3 align="center">Sunshine Retail Platform</h3>
       <p><strong>Problem</strong><br/>Small commerce demos often disconnect search, stock, payment, order history and customer support.</p>
       <p><strong>What I built</strong><br/>An India first shopping journey with a Next.js interface, Spring Boot order service, FastAPI recommendations and conversational support.</p>
