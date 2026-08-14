@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="https://sunshine-agentic-retail.vercel.app"><img alt="Sunshine live" src="https://img.shields.io/badge/Sunshine-Live%20project-ffb000?style=for-the-badge&logo=vercel&logoColor=111827" /></a>
+  <a href="output/pdf/Divya_Rachala_Resume.pdf"><img alt="Download resume" src="https://img.shields.io/badge/Resume-Download%20PDF-2f6f62?style=for-the-badge" /></a>
   <a href="https://github.com/divyarachala1812?tab=repositories"><img alt="All repositories" src="https://img.shields.io/badge/GitHub-All%20repositories-1f6feb?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
@@ -89,7 +90,7 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
 | :--- | :--- |
 | **Problem** | Search, stock, payment, order history and customer support can become inconsistent when each part uses separate application state. |
 | **Approach** | I connected a Next.js storefront to a Java Spring Boot order API, FastAPI recommendations and conversational support. The backend reserves or releases inventory and preserves typed evidence for every order outcome. |
-| **Evidence** | The live application connects 50 products, six bounded backend components, eight delivery stages and three controlled checkout outcomes. All 23 TypeScript, JUnit and pytest checks pass. |
+| **Evidence** | The live application connects 50 products, six bounded backend components, eight delivery stages and three controlled checkout outcomes. All 26 TypeScript, JUnit and pytest checks pass. |
 | **Stack** | Next.js · TypeScript · Java 17 · Spring Boot · Python · FastAPI · Vercel |
 
 <p align="center"><a href="https://sunshine-agentic-retail.vercel.app"><strong>Live application</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform/blob/main/output/pdf/Sunshine_Report.pdf"><strong>PDF report</strong></a></p>
