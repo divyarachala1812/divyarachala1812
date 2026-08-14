@@ -43,7 +43,7 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
       <h3 align="center">AirWise Metro Forecasting</h3>
       <p><strong>Problem</strong><br/>Random validation can leak nearby dates and overstate a pollution forecast.</p>
       <p><strong>What I built</strong><br/>A next day PM2.5 model for Delhi, Hyderabad and Mumbai with chronological validation, a persistence baseline and interpretable evaluation.</p>
-      <p><strong>Result</strong><br/>On the unseen 2025 period, Ridge achieved 8.50 µg/m³ MAE, 0.851 R² and 0.871 alert recall.</p>
+      <p><strong>Result</strong><br/>The 3,747 row city day panel was split into 2,070 training, 552 validation, and 1,095 unseen test rows. On 2025 data, Ridge achieved 8.50 µg/m³ MAE, 0.851 R² and 0.871 alert recall.</p>
       <p align="center"><a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><strong>Open case study</strong></a> · <a href="https://github.com/divyarachala1812/airwise-metro-forecasting/blob/main/reports/AirWise_Metro_Forecasting_Report.pdf">PDF report</a></p>
     </td>
   </tr>
@@ -61,7 +61,7 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
       <h3 align="center">Sunshine Retail Platform</h3>
       <p><strong>Problem</strong><br/>Small commerce demos often disconnect search, stock, payment, order history and customer support.</p>
       <p><strong>What I built</strong><br/>An India first shopping journey with a Next.js interface, Spring Boot order service, FastAPI recommendations and conversational support.</p>
-      <p><strong>Result</strong><br/>The live build connects a 50 product catalogue to inventory, payment outcomes, delivery estimates, recent orders and tested failure paths.</p>
+      <p><strong>Result</strong><br/>The live build connects a 50 product catalogue to reservation commit and release, six bounded order agents, eight customer delivery stages, 12 synthetic analytics records, and 23 automated tests across TypeScript, Java, and Python.</p>
       <p align="center"><a href="https://sunshine-agentic-retail.vercel.app"><strong>Open live project</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform">Source</a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform/blob/main/output/pdf/Sunshine_Retail_Platform_Report.pdf">PDF report</a></p>
     </td>
   </tr>
