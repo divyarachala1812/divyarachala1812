@@ -59,7 +59,7 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
     <td width="50%" valign="top">
       <a href="https://sunshine-agentic-retail.vercel.app"><img src="assets/sunshine-storefront-overview.jpg" width="100%" alt="Sunshine Indian retail storefront" /></a>
       <h3 align="center">Sunshine Retail Platform</h3>
-      <p><strong>Problem</strong><br/>Small commerce demos often disconnect search, stock, payment, order history and customer support.</p>
+      <p><strong>Problem</strong><br/>Small commerce applications often disconnect search, stock, payment, order history and customer support.</p>
       <p><strong>What I built</strong><br/>An India first shopping journey with a Next.js interface, a Java 17 Spring Boot order API, FastAPI recommendations and conversational support. The backend validates requests, coordinates six bounded components, reserves or releases inventory and returns typed failure evidence with an eight stage delivery timeline.</p>
       <p><strong>Result</strong><br/>The live build connects a 50 product catalogue to reservation commit, release and rejection, six bounded backend components, eight customer delivery stages, 12 synthetic analytics records, and 23 automated tests across TypeScript, JUnit and pytest.</p>
       <p align="center"><a href="https://sunshine-agentic-retail.vercel.app"><strong>Open live project</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform">Source</a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform/blob/main/output/pdf/Sunshine_Report.pdf">PDF report</a></p>
