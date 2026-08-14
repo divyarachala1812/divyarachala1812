@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a> ·
+  <a href="#selected-projects">Selected projects</a> ·
   <a href="#toolkit">Toolkit</a> ·
   <a href="#how-i-build">How I build</a> ·
   <a href="#education">Education</a> ·
@@ -26,46 +26,73 @@ I am Divya, a Computer Science graduate who enjoys taking a project from an uncl
   </tr>
 </table>
 
-## Selected work
+## Selected projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/divyarachala1812/ridepulse-operations-analytics"><img src="assets/delhi-ride-analytics.png" width="100%" alt="RidePulse operations analytics dashboard" /></a>
-      <h3 align="center">RidePulse Operations Analytics</h3>
-      <p><strong>Problem</strong><br/>Repeated bookings and outcome dependent fields made operational KPIs disagree.</p>
-      <p><strong>What I built</strong><br/>A reproducible Python, SQL and DuckDB pipeline with governed KPI definitions and a six page Power BI implementation package.</p>
-      <p><strong>Result</strong><br/>160,609 raw rows became 148,767 unique bookings after 11,842 duplicates were removed. Twelve warehouse checks pass.</p>
-      <p align="center"><a href="https://github.com/divyarachala1812/ridepulse-operations-analytics"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/ridepulse-operations-analytics/blob/main/reports/RidePulse_Report.pdf">PDF report</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><img src="assets/air-quality-forecast.png" width="100%" alt="AirWise observed and predicted PM2.5" /></a>
-      <h3 align="center">AirWise Metro Forecasting</h3>
-      <p><strong>Problem</strong><br/>Random validation can leak nearby dates and overstate a pollution forecast.</p>
-      <p><strong>What I built</strong><br/>A next day PM2.5 model for Delhi, Hyderabad and Mumbai with chronological validation, a persistence baseline and interpretable evaluation.</p>
-      <p><strong>Result</strong><br/>The 3,747 row city day panel was split into 2,070 training, 552 validation, and 1,095 unseen test rows. On 2025 data, Ridge achieved 8.50 µg/m³ MAE, 0.851 R² and 0.871 alert recall.</p>
-      <p align="center"><a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/airwise-metro-forecasting/blob/main/reports/AirWise_Report.pdf">PDF report</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant"><img src="assets/farmer-scheme-evaluation.png" width="100%" alt="KrishiGuide retrieval evaluation" /></a>
-      <h3 align="center">KrishiGuide Scheme Assistant</h3>
-      <p><strong>Problem</strong><br/>Useful scheme details are spread across official pages, PDFs, FAQs and circulars.</p>
-      <p><strong>What I built</strong><br/>A citation first retrieval workflow over five declared official sources, with Hindi and Hinglish query support and visible evidence.</p>
-      <p><strong>Result</strong><br/>The declared 18 question evaluation reached Hit@1 of 1.000, 0.972 term coverage and citations on every answer.</p>
-      <p align="center"><a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant/blob/main/reports/KrishiGuide_Report.pdf">PDF report</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://sunshine-agentic-retail.vercel.app"><img src="assets/sunshine-storefront-overview.jpg" width="100%" alt="Sunshine Indian retail storefront" /></a>
-      <h3 align="center">Sunshine Retail Platform</h3>
-      <p><strong>Problem</strong><br/>Small commerce applications often disconnect search, stock, payment, order history and customer support.</p>
-      <p><strong>What I built</strong><br/>An India first shopping journey with a Next.js interface, a Java 17 Spring Boot order API, FastAPI recommendations and conversational support. The backend validates requests, coordinates six bounded components, reserves or releases inventory and returns typed failure evidence with an eight stage delivery timeline.</p>
-      <p><strong>Result</strong><br/>The live build connects a 50 product catalogue to reservation commit, release and rejection, six bounded backend components, eight customer delivery stages, 12 synthetic analytics records, and 23 automated tests across TypeScript, JUnit and pytest.</p>
-      <p align="center"><a href="https://sunshine-agentic-retail.vercel.app"><strong>Open live project</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform">Source</a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform/blob/main/output/pdf/Sunshine_Report.pdf">PDF report</a></p>
-    </td>
-  </tr>
-</table>
+### 01 · RidePulse Operations Analytics
+
+<p align="center">
+  <a href="https://github.com/divyarachala1812/ridepulse-operations-analytics"><img src="assets/delhi-ride-analytics.png" width="720" alt="RidePulse operations analytics dashboard" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Repeated booking rows and outcome dependent fields caused operational KPIs to disagree. |
+| **Approach** | I cleaned and deduplicated the booking file, defined governed KPIs in SQL, built DuckDB marts, and prepared a six page Power BI implementation package. |
+| **Evidence** | 160,609 source rows became 148,767 unique bookings after 11,842 duplicates were removed. All 12 warehouse checks pass. |
+| **Stack** | Python · SQL · DuckDB · Parquet · Power BI |
+
+<p align="center"><a href="https://github.com/divyarachala1812/ridepulse-operations-analytics"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/ridepulse-operations-analytics/blob/main/reports/RidePulse_Report.pdf"><strong>PDF report</strong></a></p>
+
+<br/>
+
+### 02 · AirWise Metro Forecasting
+
+<p align="center">
+  <a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><img src="assets/air-quality-forecast.png" width="720" alt="AirWise observed and predicted PM2.5" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Random validation can leak nearby dates and overstate the reliability of a pollution forecast. |
+| **Approach** | I built a next day PM2.5 model for Delhi, Hyderabad and Mumbai using chronological validation, a persistence baseline, Ridge regression and city level error analysis. |
+| **Evidence** | The 3,747 row city day panel contains 1,095 unseen test rows. Ridge achieved 8.50 µg/m³ MAE, 0.851 R² and 0.871 alert recall on 2025 data. |
+| **Stack** | Python · pandas · scikit learn · time series validation · Matplotlib |
+
+<p align="center"><a href="https://github.com/divyarachala1812/airwise-metro-forecasting"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/airwise-metro-forecasting/blob/main/reports/AirWise_Report.pdf"><strong>PDF report</strong></a></p>
+
+<br/>
+
+### 03 · KrishiGuide Scheme Assistant
+
+<p align="center">
+  <a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant"><img src="assets/farmer-scheme-evaluation.png" width="720" alt="KrishiGuide retrieval evaluation" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Farmer scheme details are distributed across official pages, PDFs, FAQs and circulars. |
+| **Approach** | I created a citation first retrieval workflow over five official sources, with Hindi and Hinglish query handling, source grounded answers and visible evidence. |
+| **Evidence** | The declared 18 question evaluation reached Hit@1 of 1.000, term coverage of 0.972 and citation completeness of 1.000. |
+| **Stack** | Python · information retrieval · TF IDF · multilingual query handling · pytest |
+
+<p align="center"><a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/krishiguide-scheme-assistant/blob/main/reports/KrishiGuide_Report.pdf"><strong>PDF report</strong></a></p>
+
+<br/>
+
+### 04 · Sunshine Retail Platform
+
+<p align="center">
+  <a href="https://sunshine-agentic-retail.vercel.app"><img src="assets/sunshine-storefront-overview.jpg" width="720" alt="Sunshine Indian retail storefront" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Search, stock, payment, order history and customer support can become inconsistent when each part uses separate application state. |
+| **Approach** | I connected a Next.js storefront to a Java Spring Boot order API, FastAPI recommendations and conversational support. The backend reserves or releases inventory and preserves typed evidence for every order outcome. |
+| **Evidence** | The live application connects 50 products, six bounded backend components, eight delivery stages and three controlled checkout outcomes. All 23 TypeScript, JUnit and pytest checks pass. |
+| **Stack** | Next.js · TypeScript · Java 17 · Spring Boot · Python · FastAPI · Vercel |
+
+<p align="center"><a href="https://sunshine-agentic-retail.vercel.app"><strong>Live application</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform"><strong>Repository</strong></a> · <a href="https://github.com/divyarachala1812/sunshine-retail-platform/blob/main/output/pdf/Sunshine_Report.pdf"><strong>PDF report</strong></a></p>
 
 ## Toolkit
 
