@@ -32,9 +32,9 @@
   partopsep=0pt
 }
 
-\newcommand{\projectheading}[3]{
-  \textbf{#1} \hfill #2\\
-  {\small #3}\vspace{1pt}
+\newcommand{\projectheading}[4]{
+  \href{#3}{\textbf{#1}} \hfill #2\\
+  {\small GitHub: \href{#3}{#4}}\vspace{1pt}
 }
 
 \begin{document}
@@ -49,7 +49,7 @@
 \vspace{-6pt}
 
 \section*{Professional Summary}
-Computer Science graduate with hands-on project experience in data analytics, machine learning, applied AI, and full-stack software development. Built reproducible Python and SQL pipelines, Power BI-ready KPI models, scikit-learn forecasting workflows, citation-grounded retrieval systems, and tested Java, Spring Boot, FastAPI, and Next.js applications. Seeking an entry-level role in data, machine learning, applied AI, or software engineering.
+Recent Computer Science graduate seeking internship and entry-level opportunities in data analytics, machine learning, applied AI, and software development. Portfolio projects demonstrate Python and SQL data preparation, Power BI KPI reporting, scikit-learn model evaluation, document retrieval with citations, and tested applications built with Java, Spring Boot, FastAPI, TypeScript, and Next.js.
 
 \section*{Technical Skills}
 \textbf{Languages:} Python, SQL, Java, TypeScript, JavaScript\\
@@ -57,34 +57,34 @@ Computer Science graduate with hands-on project experience in data analytics, ma
 \textbf{Machine Learning and AI:} scikit-learn, regression, time-series validation, TF-IDF, information retrieval, natural language processing, ranking, model evaluation\\
 \textbf{Backend, Web, and Tools:} Next.js, React, Spring Boot, FastAPI, REST APIs, Git, GitHub Actions, Vercel, pytest, JUnit, Vitest
 
-\section*{Project Experience}
+\section*{Projects}
 
-\projectheading{Sunshine Retail Platform}{Jun 2026 - Present}{Full-Stack and Backend Project | \href{https://github.com/divyarachala1812/sunshine-retail-platform}{github.com/divyarachala1812/sunshine-retail-platform}}
+\projectheading{Indian Retail Storefront and Order Management Platform}{June 2026}{https://github.com/divyarachala1812/sunshine-retail-platform}{github.com/divyarachala1812/sunshine-retail-platform}
 \begin{itemize}
-  \item Developed and deployed an Indian retail application using Next.js, TypeScript, Java 17, Spring Boot, Python, FastAPI, and Vercel; connected a searchable 50-product catalogue, cart, recommendations, checkout, order history, and customer support.
-  \item Implemented inventory reservation, commit, and release rules across three checkout outcomes and eight delivery stages; verified frontend and backend behaviour with 26 Vitest, JUnit, and pytest tests.
+  \item Built an Indian retail website to keep product search, stock, cart, payment results, delivery tracking, order history, and customer support consistent from browsing through checkout.
+  \item Used Next.js, TypeScript, Java 17, Spring Boot, Python, FastAPI, and Vercel for a searchable 50-product catalogue; implemented three checkout outcomes and eight delivery stages, verified by 26 automated tests.
 \end{itemize}
 
-\projectheading{KrishiGuide Scheme Assistant}{Mar 2026 - May 2026}{Applied AI Project | \href{https://github.com/divyarachala1812/krishiguide-scheme-assistant}{github.com/divyarachala1812/krishiguide-scheme-assistant}}
+\projectheading{Indian Farmer Scheme Information Assistant}{March 2026}{https://github.com/divyarachala1812/krishiguide-scheme-assistant}{github.com/divyarachala1812/krishiguide-scheme-assistant}
 \begin{itemize}
-  \item Created a citation-grounded retrieval workflow over 406 chunks from seven official source items using word and character TF-IDF, hybrid ranking, Hindi and Hinglish query expansion, and extractive answer assembly.
-  \item Designed an 18-question evaluation across five farmer-scheme topics; achieved Hit@1 of 1.000, expected-term coverage@3 of 0.972, and 100\% citation completeness with pytest contracts and recorded source provenance.
+  \item Built a search assistant that helps users find reliable farmer-scheme information distributed across official documents and returns supporting source citations with each answer.
+  \item Used Python, document chunking, word and character TF-IDF, and ranked retrieval across 406 chunks from seven official sources; evaluated 18 questions with Hit@1 of 1.000 and 100\% citation completeness.
 \end{itemize}
 
-\projectheading{AirWise Metro Forecasting}{Aug 2025 - Dec 2025}{Machine Learning Project | \href{https://github.com/divyarachala1812/airwise-metro-forecasting}{github.com/divyarachala1812/airwise-metro-forecasting}}
+\projectheading{Next-Day Air Quality Forecasting for Indian Metro Cities}{December 2025}{https://github.com/divyarachala1812/airwise-metro-forecasting}{github.com/divyarachala1812/airwise-metro-forecasting}
 \begin{itemize}
-  \item Built a leakage-safe next-day PM2.5 forecasting pipeline with Python, pandas, and scikit-learn for Delhi, Mumbai, and Hyderabad; engineered lag, rolling, weather, and seasonal features from 3,747 city-day rows.
-  \item Evaluated Ridge regression against persistence on 1,095 unseen 2025 rows, achieving MAE 8.50, R2 0.851, and alert recall 0.871; published city-level error analysis and permutation importance.
+  \item Built a next-day PM2.5 forecasting system for Delhi, Mumbai, and Hyderabad to support earlier air-quality monitoring without allowing future dates to enter model training.
+  \item Used Python, pandas, scikit-learn, lag and weather features, and chronological validation on 3,747 city-day rows; achieved MAE 8.50, R2 0.851, and alert recall 0.871 on 1,095 unseen rows.
 \end{itemize}
 
-\projectheading{RidePulse Operations Analytics}{Feb 2025 - May 2025}{Data Analytics and Business Intelligence Project | \href{https://github.com/divyarachala1812/ridepulse-operations-analytics}{github.com/divyarachala1812/ridepulse-operations-analytics}}
+\projectheading{Delhi NCR Ride Operations and KPI Analytics}{May 2025}{https://github.com/divyarachala1812/ridepulse-operations-analytics}{github.com/divyarachala1812/ridepulse-operations-analytics}
 \begin{itemize}
-  \item Prepared and deduplicated 160,609 Delhi NCR ride records using Python, SQL, and DuckDB, producing 148,767 booking-level rows, 15 analytical marts, and governed KPI definitions.
-  \item Designed a six-page Power BI implementation package with Power Query and DAX for demand, fulfilment, booking value, market, and service quality; passed 12 warehouse checks and three Python tests.
+  \item Converted 160,609 inconsistent Delhi NCR ride-booking rows into 148,767 unique bookings so demand, completion, cancellation, service, and revenue KPIs could be measured consistently.
+  \item Used Python, SQL, DuckDB, Power Query, DAX, and Power BI to create 15 analytical tables and a six-page dashboard package; passed 12 warehouse checks and three Python tests.
 \end{itemize}
 
 \section*{Education}
-\textbf{Bachelor of Technology in Computer Science} \hfill Jun 2026\\
+\textbf{Bachelor of Technology in Computer Science} \hfill June 2026\\
 Malla Reddy Institute of Engineering and Technology, India
 
 \end{document}
